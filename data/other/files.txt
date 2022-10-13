@@ -1,0 +1,51 @@
+State_Recidivism_Rates_All_States, 1995-2009, https://opendata.utah.gov/Public-Safety/State-Recidivism-Rates-All-States/xcyn-2ayc
+covers all states, one or two years of reporting each
+aggregate, qualitative data - useful for context, maybe not for modeling
+groups by categories such as juvenile, sex offender, felon, etc.
+does discuss interventional programs a bit - therapeutic courts, sex offender treatment, recommended sentences, etc.
+lots of text to go through and interpret, even as far as recidivism quantification - again probably better for background
+
+NIJ_s_Recidivism_Challenge_Full_Dataset (Georgia), 2013-2015, https://data.ojp.usdoj.gov/Courts/NIJ-s-Recidivism-Challenge-Full-Dataset/ynf5-u8nk
+Excellent, specific individual data
+gender, race, age, residence, drug tests, prior convictions, education, psych conditions, etc. - 54 columns!
+has 3 columns for subsequent offenses - one for each of 3 years out from release
+over 25,000 observations
+great for modeling - not much on mitigators though
+
+Recidivism__Beginning_2008 (NY), 2008-2015, https://data.ny.gov/Public-Safety/Recidivism-Beginning-2008/y7pw-wrny
+very basic individual data - just location, age, gender
+over 188,000 observations - good for volume!
+good characterization of recidivism - categorical variable indicating type of offense
+might be useful for modeling, just doesn't have a lot of predictors
+
+Recidivism (Kaggle), 2013-2018, https://www.kaggle.com/slonnadube/recidivism
+over 96,000 observations
+year, sex, ethnicity - pretty basic predictors
+does include supervision, which could be a mitigator
+good quantification of offenses
+not sure there's sufficient target data
+maybe useful for modeling
+
+3-Year_Recidivism_for_Offenders_Admitted_to_Probation_in_Iowa, 2013-2018, http://datadiscoverystudio.org/geoportal/rest/metadata/item/3857b80ee97046d2a26df8f75b4f4072/html
+Actually a duplicate of the above Kaggle!
+
+APS_5.2_Outcome_Recidivism_by_Region_with_Demographics_FY2012-2021 (TX - agg), 2012-2021,https://data.texas.gov/dataset/APS-5-2-Outcome-Recidivism-by-Region-with-Demograp/nywn-y4pr
+Aggregate data, probably mainly useful for context/background
+region, age group, ethnicity, gender
+recidivism calculated as % of victims from first offense to subsequent per group
+probably not great for modeling
+
+recidivism_full (Kaggle), ????-????, https://www.kaggle.com/datasets/uocoeeds/recidivism
+Duplicate of above NIJ Recidivism Challenge!
+
+bjs_recidivism_data.csv (Kaggle - agg by state), 2000-2016, https://www.kaggle.com/datasets/nathans7/bureau-of-justice-statistics-recidivism
+just aggregate admissions/releases/parole violations by state, gender
+probably not useful
+
+compas (Kaggle - complex/controversial data set! FL), 2012-2014, https://www.kaggle.com/datasets/danofer/compass
+over 18,000 observations (I think - looks like there is 60K of raw data that was then consolidated down to 18K)
+multiple files, need more research to understand which to use and exactly what columns mean
+comprehensive demo info (including names - eek!!)
+comprehensive offense info
+could definitely be useful for modeling
+would also be useful for comparing our own model to their scores
