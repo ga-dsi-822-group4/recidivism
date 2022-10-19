@@ -5,6 +5,7 @@ jail AS(
         person_id,
         COUNT(*) AS num_jailings,
         MIN(in_custody) AS first_jailing_date,
+        MIN(out_custody) AS first_jailing_release,
         MAX(in_custody) AS last_jailing_date,
         MAX(out_custody) AS last_jailing_release
     FROM
@@ -17,6 +18,7 @@ prison AS(
         person_id,
         COUNT(*) AS num_incarcerations,
         MIN(in_custody) AS first_incarceration_date,
+        MIN(out_custody) AS first_incarceration_release,
         MAX(in_custody) AS last_incarceration_date,
         MAX(out_custody) AS last_incarceration_release
     FROM
@@ -43,14 +45,11 @@ SELECT
     p.sex,
     p.race,
     p.dob AS birth_date,
-    IFNULL(j.num_jailings, 0) AS num_jailings,
-    j.first_jailing_date,
-    j.last_jailing_date,
-    j.last_jailing_release,
-    IFNULL(pr.num_incarcerations, 0) AS num_incarcerations,
-    pr.first_incarceration_date,
-    pr.last_incarceration_date,
-    pr.last_incarceration_release,
+    COALESCE(pr.first_incarceration_date, j.first_jailing_date) AS first_incarceration_date,
+    COALESCE(pr.first_incarceration_release, j.first_jailing_release) AS first_incarceration_release,
+    COALESCE(j.last_jailing_date, pr.last_incarceration_date) AS last_incarceration_date,
+    COALESCE(j.last_jailing_release, pr.last_incarceration_release) AS last_incarceration_release,
+    IFNULL(j.num_jailings, 0) + IFNULL(pr.num_incarcerations, 0) AS num_incarcerations,
     comp_f.min_score AS comp_f_min_score,
     comp_f.min_decile AS comp_f_min_decile,
     comp_f.max_score AS comp_f_max_score,
