@@ -3,17 +3,17 @@
 
 **BACKGROUND**
 
-TODO
+We are a team of policy researchers trying to determine if an algorithm can accurately predict whether an inmate will be reincarcerated. We will build and evaluate a series of different classification models to determine what features most predict whether someone will recidivate. 
 
 
 **PROPOSED SOLUTION**
 
-TODO
+Our approach will entail collecting, cleaning, feature engineering, building, tuning, and evaluating a variety of classification models. Models to be considered will include logistic regression, KNN, Decision Trees, Random Forest & Ensemble Models, Naive Bayes and  Neural Networks. 
 
 
 **WHAT SUCCESS LOOKS LIKE**
 
-TODO
+Our aim is to optimize for both accuracy and specificty. While accuracy will be our primary goal, we also strive to limit false positives as to avoid any unneccessary allocation of resources or restrictions on those who are inaccurately identified as likely to recidivate. A successful model is one that substantially outperforms the baseline accuracy, ideally X% accuracy and Y% recall. 
 
 
 **DATA DICTIONARY**
@@ -26,8 +26,12 @@ Due to the combined length of the data dictionaries for the 3 models, they are l
 
 **DATA ACQUISITION AND CLEANING** (Notebook is [here](./notebooks/01_data_acq_clean.ipynb))
 
-The overall approach here was:
-- TODO
+We identified three datasets from three different states in the US with varying features to be used for modeling. Data was collected from various sources including government websites and Kaggle. Null values were imputed or dropped, please see acquisition and cleaning notebook for detailed steps and logic.
+
+Datasets:
+Basic- New York - 188k Observations - 5 Features 
+Demographic- Florida - 11k Observations - 25 Features
+Behavorial- Georgia - 25k Observations - 58 Features
 
 **EXPLORATORY DATA ANALYSIS** (Notebook is [here](./notebooks/02_eda.ipynb))
 
@@ -35,11 +39,23 @@ The purpose of this notebook is to "play" with a few aspects of the data, helpin
 
 BASELINE ACCURACY
 
-etc.
+Basic Dataset: 58% 
+Demographic Dataset: 61% 
+Behavorial Dataset: 60% 
 
-CONCLUSIONS
+CONCLUSIONS - TBD add in summaries of compelling EDA across key topic areas including those below
 
-TODO
+Percent Days Employed:
+
+Drug Use:
+
+Gang Affiliation:
+
+Release Conditions:
+
+Number of Prior Arrests:
+
+Age:
 
 **MODELING** (Notebook is [here](./notebooks/03_modeling.ipynb))
 
