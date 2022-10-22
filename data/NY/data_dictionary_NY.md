@@ -8,5 +8,3 @@
 |Gender|object|The inmates gender|
 |Age at Release|int|The age of the inmate at the time of release from prison|
 |Return Status|object|The status of the inmate within 3 years of release (Returned because of New Offense or Parole Violation, Not Returned)|
-
-
