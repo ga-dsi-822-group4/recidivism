@@ -39,9 +39,9 @@ The purpose of this notebook is to "play" with a few aspects of the data, helpin
 
 BASELINE ACCURACY
 
-Basic Dataset: 58% Accuracy
-Demographic Dataset: 61% Accuracy
-Behavorial Dataset: TBD
+Basic Dataset: 58% 
+Demographic Dataset: 61% 
+Behavorial Dataset: 60% 
 
 CONCLUSIONS - TBD add in summaries of compelling EDA across key topic areas including those below
 
