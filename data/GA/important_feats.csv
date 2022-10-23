@@ -1,43 +1,43 @@
 ,feature,coef
-0,gender_male,1.3450323775173987
-1,gang_affiliated,2.0117983411222573
-2,supervision_risk_score_first,1.068449543968398
-3,dependents,0.9865495055419937
-4,prior_arrest_episodes_felony,1.047269664784915
-5,prior_arrest_episodes_misd,1.063890645760147
-6,prior_arrest_episodes_violent,1.0293800167650329
-7,prior_arrest_episodes_property,1.0802665191316578
-8,prior_arrest_episodes_drug,1.0020295091741716
-9,prior_arrest_episodes_ppviolationcharges,1.10520158893944
-10,prior_arrest_episodes_dvcharges,1.0792802106735198
-11,prior_arrest_episodes_guncharges,1.0233527132805635
-12,condition_mh_sa,1.2879584160590938
-13,condition_cog_ed,0.9541292714514537
-14,condition_other,1.0120138300342443
-15,violations_electronicmonitoring,1.1823663080322548
-16,violations_instruction,1.252162050375883
-17,violations_failtoreport,1.0207051412618124
-18,violations_movewithoutpermission,0.9867117601700205
-19,delinquency_reports,0.8937137614489984
-20,program_attendances,0.9657286656046408
-21,residence_changes,1.1485523352128932
-22,avg_days_per_drugtest,0.9996500239676406
-23,drugtests_thc_positive,1.259141012062315
-24,drugtests_cocaine_positive,1.0280933345718708
-25,drugtests_meth_positive,1.0918568759642262
-26,drugtests_other_positive,1.0263267940281593
-27,percent_days_employed,0.2940635513543082
-28,age_at_release_18-22,1.4854323451541058
-29,age_at_release_23-27,1.348279002251837
-30,age_at_release_28-32,1.0397974782009596
-31,age_at_release_33-37,0.8924173071074935
-32,age_at_release_38-42,0.8252873545099878
-33,age_at_release_43-47,0.7427551089538457
-34,age_at_release_48 or older,0.5641495370448989
-35,education_level_at least some college,0.7843816606853051
-36,education_level_high school diploma,0.9736856676103794
-37,education_level_less than hs diploma,0.8414886400897715
-38,prison_years_1-2 years,0.9135871077743074
-39,prison_years_greater than 2 to 3 years,0.7717829634493042
-40,prison_years_less than 1 year,1.0825616816229504
-41,prison_years_more than 3 years,0.8419700924025456
+1,gang_affiliated,2.0117809547591707
+28,age_at_release_18-22,1.4854834408469126
+29,age_at_release_23-27,1.3483166801700608
+0,gender_male,1.3450070318383434
+12,condition_mh_sa,1.2879725840436587
+23,drugtests_thc_positive,1.2591438218126998
+16,violations_instruction,1.2521641070717304
+15,violations_electronicmonitoring,1.1824553360976715
+21,residence_changes,1.1485524490566053
+9,prior_arrest_episodes_ppviolationcharges,1.1052018974143918
+25,drugtests_meth_positive,1.0918606806006375
+40,prison_years_less than 1 year,1.0825508572373455
+7,prior_arrest_episodes_property,1.0802678769414724
+10,prior_arrest_episodes_dvcharges,1.0792958970065352
+2,supervision_risk_score_first,1.0684451012029512
+5,prior_arrest_episodes_misd,1.0638911517453864
+4,prior_arrest_episodes_felony,1.0472713719371283
+30,age_at_release_28-32,1.0398129619705847
+6,prior_arrest_episodes_violent,1.0293783818401498
+24,drugtests_cocaine_positive,1.028111977367229
+26,drugtests_other_positive,1.0263238865943265
+11,prior_arrest_episodes_guncharges,1.0233616335246118
+17,violations_failtoreport,1.0206725066155544
+14,condition_other,1.0119916878119355
+8,prior_arrest_episodes_drug,1.0020290003228993
+22,avg_days_per_drugtest,0.9996499773780558
+18,violations_movewithoutpermission,0.9866895975203858
+3,dependents,0.9865503194981673
+36,education_level_high school diploma,0.9736916335336644
+20,program_attendances,0.9657280782241794
+13,condition_cog_ed,0.9541221306994573
+38,prison_years_1-2 years,0.9135894435909215
+19,delinquency_reports,0.8937145997497884
+31,age_at_release_33-37,0.8924158445649363
+41,prison_years_more than 3 years,0.8419723797905824
+37,education_level_less than hs diploma,0.8414916604669735
+32,age_at_release_38-42,0.8252678541137509
+35,education_level_at least some college,0.7843866509200725
+39,prison_years_greater than 2 to 3 years,0.7717990197048648
+33,age_at_release_43-47,0.7427312077610168
+34,age_at_release_48 or older,0.564147445578731
+27,percent_days_employed,0.2940644547159553
