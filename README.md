@@ -8,7 +8,7 @@
 <br>[Results & Recommendations](#results-and-recommendations)
 
 
-# Executive Summary**
+# Executive Summary
 
 **Problem Statement**: We are a team of policy researchers trying to determine if an algorithm can accurately predict whether an inmate will be reincarcerated. We will build and evaluate a series of different classification models to determine what features most predict whether someone will recidivate. 
 
@@ -65,19 +65,19 @@ Drug Use: There is a positive correlation between drug use and recidivism whereb
 
 We built, tuned, and evaluated a variety of classification models across three different datasets from New York, Georgia, and Florida each having different sets of features. 
 
-Basic Dataset- NY- Modeling with only age at release, gender, and county of indictment did not result in sufficient improvement from baseline. Our best performing model was a stacked ensemble of random forest and gradient boosting at level one and logistic regression at level two. From this model we only saw a 2% improvement in accuracy from 58% baseline to 60% test accuracy. 
+Basic Dataset- NY- Modeling with only age at release, gender, and county of indictment did not result in sufficient improvement from baseline. Our best performing model was a neural net, from this model we only saw a 2% improvement in accuracy from 58% baseline to 60% test accuracy. 
 
-Behavorial Dataset- Georgia - Modeling with behavorial data saw significant bump in accuracy. We ran 9 different classification models on the dataset with the best performing model being gradient boost which saw an 11% increase from baseline accuracy of 60% to 71% test accuracy.
+Behavorial Dataset- Georgia - Modeling with behavorial data saw significant bump in accuracy. We ran 9 different classification models on the dataset with the best performing model being gradient boost which saw an 12% increase from baseline accuracy of 60% to 72% test accuracy.
 
-Criminal History Dataset- Florida - Modeling with criminal history dataset resulted in the highest overall and average accuracy scores. We ran a series of classification models and ultimately a neural network was the most accurate seeing a 25% improvement from a baseline accuracy of 61% to test accuracy of 86%.
+Criminal History Dataset- Florida - Modeling with criminal history dataset resulted in the highest overall and average accuracy scores. We ran a series of classification models and ultimately a gradient boosting model was the most accurate seeing a 27% improvement from a baseline accuracy of 61% to test accuracy of 88%.
 
 # Results and Recommendations
 (Notebook is [here](./notebooks/04_results.ipynb))
 
 **Can we predict recidivism?**
-Yes, when given adequate data it is possible to accurately predict recidivism. Our best performing model was a neural network utilizing criminal history correctly classify 86% of recidivism, a substantial 25% gain from the baseline accuracy.
+Yes, when given adequate data it is possible to accurately predict recidivism. Our best performing model was a gradient boost utilizing criminal history correctly classify 88% of recidivism, a substantial 27% gain from the baseline accuracy.
 
-**Should we predict recidivism**
+**Should we predict recidivism?**
 Yes however, we believe that extra caution should be taken when predicting recidivism and certain characteristics that a subject has no control over i.e. age, race, gender etc should not be used for prediction purposes. It is not only more reliable to utilize criminal history rather than these traits but it is also more ethical.
 
 
