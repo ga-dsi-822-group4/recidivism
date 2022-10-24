@@ -95,7 +95,7 @@ Yes however, we believe that extra caution should be taken when predicting recid
 
 **PRESENTATION**
 
-See [here](./presentation/Recidivism.pdf) for a brief, fairly non-technical presentation summarizing the problem, modeling process and results.
+See [here](./presentation/Recidivism_PDF.pdf) for a brief, fairly non-technical presentation summarizing the problem, modeling process and results.
 
 **DATA SOURCES**
 <br>[NY] https://data.ny.gov/Public-Safety/Recidivism-Beginning-2008/y7pw-wrny
