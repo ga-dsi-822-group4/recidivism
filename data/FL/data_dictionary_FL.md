@@ -28,12 +28,12 @@ People dataset (1 row per person):
 | comp_v_max_decile            | int       | maximum decile of risk of violent recidivism as scored by COMPAS algorithm           |
 
 
-Charges daataset (1 row per charge):
+Charges dataset (1 row per charge):
 
 
 | field                        | data type | description                                                                          |
 | ---------------------------- | --------- | ------------------------------------------------------------------------------------ |
-| person_id                    | int       | unique ID per person assigned by original study, primary key                         |
+| person_id                    | int       | unique ID per person assigned by original study, foreign key to people dataset       |
 | case_number                  | string    | unique case number as assigned by justice system                                     |
 | offense_date                 | datetime  | date offense was committed                                                           |
 | charge_degree                | string    | indication of degree of charge - M for misdemeanor, F for felony, or infraction type |

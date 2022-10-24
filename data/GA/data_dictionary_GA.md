@@ -7,10 +7,8 @@ The features included in this dictionary are all that remained after data cleani
 |gender_male|int|1 or 0 indicating male (1) or female (0).|
 |age_at_release|object|Age group at time of prison release.|
 |gang_affiliated|int|1 or 0 indicating gang affiliation (1 is True, 0 is False).|
-|supervision_risk_score_first|float|First Parole Supervision Risk Assessment
-Score (1-10, where 1=lowest risk).|
-|education_level|object|Education Grade Level at Prison Entry (<high school,
-High School diploma, at least some college).|
+|supervision_risk_score_first|float|First Parole Supervision Risk Assessment Score (1-10, where 1=lowest risk).|
+|education_level|object|Education Grade Level at Prison Entry (High school, High School diploma, at least some college).|
 |dependents|int|Number of dependents at prison entry.|
 |prison_years|object|Years in Prison Prior to Parole Release (<1, 1-2, 2-3, 3+)|
 |prior_arrest_episodes_felony|int|Number of prior arrests listed in the Georgia Crime Information Center, with most serious charge = felony|
