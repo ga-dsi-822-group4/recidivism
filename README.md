@@ -1,8 +1,8 @@
 # Group Project 4: Comparing 3 Models for Predicting Recidivism
 Authored By:
-[Cynthia Rodriguez](https://github.com/cynthia-rodriguez1)
-[Gabe Mangiante](https://github.com/gmangiante)
-[Dylan Cavaliere](https://github.com/djcavaliere)
+-[Cynthia Rodriguez](https://github.com/cynthia-rodriguez1)
+-[Gabe Mangiante](https://github.com/gmangiante)
+-[Dylan Cavaliere](https://github.com/djcavaliere)
 
 **TABLE OF CONTENTS**
 <br>[Executive Summary](#executive-summary)
