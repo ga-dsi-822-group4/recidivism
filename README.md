@@ -89,9 +89,22 @@ Yes however, we believe that extra caution should be taken when predicting recid
 
 **PRESENTATION**
 
-See [here](./presentation/presentation.pdf) for a brief, fairly non-technical presentation summarizing the problem, modeling process and results.
+See [here](./presentation/Recidivism.pdf) for a brief, fairly non-technical presentation summarizing the problem, modeling process and results.
 
-**SOURCES**
+**DATA SOURCES**
 <br>[NY] https://data.ny.gov/Public-Safety/Recidivism-Beginning-2008/y7pw-wrny
 <br>[FL] https://www.kaggle.com/datasets/danofer/compass
 <br>[GA] https://data.ojp.usdoj.gov/Courts/NIJ-s-Recidivism-Challenge-Full-Dataset/ynf5-u8nk/data
+
+**ADDITIONAL EXTERNAL RESOURCES**
+<br>https://www.kiro7.com/news/local/filthy-rags-outreach-nonprofit-working-fight-crime-through-gang-intervention/CSOUGIMOOFBHRAZWRWJ2QOU4BI/
+<br>https://www.filthyragsoutreach.org/
+<br>https://nationalgangcenter.ojp.gov/insights/44/helping-to-break-the-recidivism-cycle#:~:text=In%20fact%2C%20within%20three%20years,years%2C%2076.6%20percent%20are%20rearrested.&text=This%20is%20most%20often%20true%20of%20gang%20members.
+<br>https://www.semanticscholar.org/paper/Gang-Affiliation-and-Prisoner-Reentry%3A-Variation-in-Pyrooz-Clark/88dc0ee7c37437b89071f07b8942210347769c05
+<br>https://harvardpolitics.com/recidivism-american-progress/
+<br>https://www.researchgate.net/publication/321953443_The_Effects_of_Prison_Labor_on_Institutional_Misconduct_Postprison_Employment_and_Recidivism
+<br>https://econofact.org/can-employment-focused-reentry-programs-keep-former-prisoners-from-being-reincarcerated
+<br>https://www.brookings.edu/research/a-better-path-forward-for-criminal-justice-training-and-employment-for-correctional-populations/
+<br>https://thelastmile.org/about/#story
+<br>https://www.nami.org/Advocacy/Policy-Priorities/Improving-Health/Mental-Health-Treatment-While-Incarcerated
+<br>https://jaapl.org/content/early/2020/02/12/JAAPL.003913-20
